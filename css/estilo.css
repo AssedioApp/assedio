@@ -1,0 +1,71 @@
+header {
+    background-color: pink;
+    text-align: center;
+
+}
+#logotipo {
+    width: 150px;
+    height: 150px;
+    
+}
+body {
+    margin: 0 ;
+}
+nav{
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: limegreen;    
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: limegreen;
+    padding: 32px 30px;
+    font-size: 20pt;
+}
+
+a:hover {
+    background-color: magenta;
+}
+
+aside {
+    border: 1px solid #ccc;
+    position: absolute;
+    height: auto;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    width: 300px;
+    font-size: 14pt;
+}
+
+p {
+    text-align: justify;
+}
+
+#mapa {
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+}
+
+section {
+    width: 50vh;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: limegreen;
+    bottom: 0;
+    position: static;   
+    margin-top: 120px;
+}
+
+.download {
+    width: 170px;
+    height: 70px;
+}
